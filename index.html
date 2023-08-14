@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website Landing Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!--- -------Header Section------- --->
+
+    <header>
+        <a href="#" class="logo"><span>T</span>ravel</a>
+        <nav class="header-content">
+            <a href ="header">Home</a>
+            <a href ="book">Book</a>
+            <a href ="packages">Packages</a>
+            <a href ="services">Services</a>
+            <a href ="reviews">Reviews</a>
+            <a href ="contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fa fa-search" aria-hidden="true" id="search-button"></i>
+            <i class="fa-solid fa-user" id="login-button"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here">
+            <label for="search-bar" class="fa fa-search"> </label>
+        </form>
+    </header>
+
+
+    <!--- -------Login Form------- --->
+
+    <div class="login-form">
+        <i class="fa-solid fa-xmark" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="Login" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>Forget Password? <a href="#">Click Here</a></p>
+            <p>Don't have an account? <a href="#">Register</a></p>
+        </form>
+    </div>
+
+
+    <!--- -------Home Section------- --->
+
+    <div class="home">
+        <div class="content">
+            <h3>To Travel is to LIVE!</h3>
+            <p>It's time for a new Adventure</p>
+            <a href="#" class="btn">Discover NOW!</a>
+        </div>
+        <div class="controls">
+            <span class="video-btn active" data-src="Images/video3.mp4"></span>
+            <span class="video-btn" data-src="Images/video2.mp4"></span>
+            <span class="video-btn" data-src="Images/video1.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="Images/video3.mp4" id="video" loop autoplay muted></video>
+        </div>
+
+    </div>
+
+
+    <!--- -------Booking Section------- --->
+
+    <div class="book">
+
+    </div>
+
+
+    <!--- -------Packages Section------- --->
+
+    <div class="packages">
+
+    </div>
+
+
+    <!--- -------Services Section------- --->
+
+    <div class="services">
+
+    </div>
+
+
+    <!--- -------Reviews Section------- --->
+
+    <div class="reviews">
+
+    </div>
+
+
+    <!--- -------Contact Section------- --->
+
+    <div class="contact">
+
+    </div>
+
+
+<script src="script.js"></script>
+
+
+    
+</body>
+</html>
