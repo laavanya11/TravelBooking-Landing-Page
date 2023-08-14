@@ -253,8 +253,8 @@ header .search-bar-container label:hover{
 
 .heading span{
     font-size: 44px;
-    background: rgb(241, 100, 241);
-    color: rgb(72, 252, 252);
+    background: rgb(249, 177, 210);
+    color: rgb(210, 12, 151);
     border-radius: 3px;
     padding: 5px;
     display: inline-block;
@@ -304,3 +304,54 @@ header .search-bar-container label:hover{
 
 
 /* --------  Packages Section -------- */
+
+.packages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.packages .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+}
+
+.packages .box-container .box img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.packages .box-container .box .content{
+    padding: 10px;
+}
+
+.packages .box-container .box .content h3{
+    font-size: 20px;
+    color: black;
+}
+
+.packages .box-container .box .content h3 i{
+    color: coral;
+    margin-right: 5px;
+}
+
+.packages .box-container .box .content .star i{
+    font-size: 16px;
+    color: goldenrod;
+}
+
+.packages .box-container .box .content .price{
+    font-size: 20px;
+    color: #414141;
+    padding-top: 5px;
+}
+
+.packages .box-container .box .content .price span{
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+
