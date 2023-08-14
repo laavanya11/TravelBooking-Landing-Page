@@ -21,12 +21,15 @@ html{
     border: 1px solid rgb(0, 0, 0, 0.7);
     padding: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .btn:hover{
     background: rgb(238, 183, 82);
 }
+
+
+/* -------- Header Section -------- */
 
 header{
     position: fixed;
@@ -241,6 +244,63 @@ header .search-bar-container label:hover{
 }
 
 
+/* --------  Book Section -------- */
+
+.heading{
+    text-align: center;
+    padding:20px;
+}
+
+.heading span{
+    font-size: 44px;
+    background: rgb(241, 100, 241);
+    color: rgb(72, 252, 252);
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.heading span.space{
+    background: none;
+}
+
+.book .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.book .row .travel-img img{
+    width: 100%;
+    margin: 10px;
+}
+
+.book .row form{
+    flex: 1 1 40rem;
+    padding: 50px;
+    width: 100%;
+    height: 520px;
+    margin-right: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.book .row form .inputdata{
+    padding: 8px;
+}
+
+.book .row form .inputdata input{
+    font-size: 20px;
+    width: 100%;
+    color: #1e1e1e;
+    padding: 8px;
+    text-transform: none;
+}
+
+.book .row form .inputdata h3{
+    padding: 8px;
+}
 
 
-
+/* --------  Packages Section -------- */
